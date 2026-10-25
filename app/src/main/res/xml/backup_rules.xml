@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Старые правила бэкапа (Android 12 и ниже): исключаем кэш WebView -->
+<full-backup-content>
+    <exclude domain="sharedpref" path="webView.xml" />
+    <exclude domain="file" path="cache" />
+</full-backup-content>

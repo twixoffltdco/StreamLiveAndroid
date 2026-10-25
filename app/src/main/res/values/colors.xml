@@ -1,0 +1,7 @@
+<resources>
+    <!-- Фирменные цвета StreamLive для ресурсов (сплэш, иконки) -->
+    <color name="stream_black">#FF000000</color>
+    <color name="neon_cyan">#FF00F2EA</color>
+    <color name="neon_pink">#FFFE2C55</color>
+    <color name="ic_launcher_background">#FF000000</color>
+</resources>

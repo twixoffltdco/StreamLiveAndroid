@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Базовая тема приложения (тёмная, без Action Bar — у нас Compose) -->
+    <style name="Theme.StreamLive" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/stream_black</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!--
+        Стартовая тема для AndroidX Core Splash Screen API.
+        windowSplashScreenBackground — чёрный фон сплэша,
+        windowSplashScreenAnimatedIcon — логотип StreamLive/Platforma.
+    -->
+    <style name="Theme.StreamLive.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/stream_black</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_logo</item>
+        <item name="windowSplashScreenAnimationDuration">600</item>
+        <item name="postSplashScreenTheme">@style/Theme.StreamLive</item>
+    </style>
+</resources>
