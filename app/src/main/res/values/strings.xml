@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">StreamLive</string>
+    <string name="tab_home">Главная</string>
+    <string name="tab_about">О Платформе</string>
+    <string name="tab_profile">Профиль</string>
+    <string name="reserve_snackbar">Подключен резервный сервер Platforma</string>
+</resources>

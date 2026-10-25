@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Передний план адаптивной иконки StreamLive (Safe Zone 66dp из 108dp).
+    Знак «Play/Live» в неоновом градиенте Platforma: циан #00F2EA -> розовый #FE2C55.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Внешнее «живое» кольцо (сигнал эфира) -->
+    <path
+        android:pathData="M54,30m-24,0a24,24 0,1 1,48 0a24,24 0,1 1,-48 0"
+        android:strokeWidth="4"
+        android:strokeColor="#00F2EA"
+        android:fillColor="#00000000" />
+
+    <!-- Треугольник «Play» с фирменным градиентом -->
+    <path
+        android:pathData="M47,41 L47,67 L70,54 Z">
+        <aapt:attr xmlns:aapt="http://schemas.android.com/aapt" name="android:fillColor">
+            <gradient
+                android:startX="47" android:startY="41"
+                android:endX="70" android:endY="67"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00F2EA" />
+                <item android:offset="1.0" android:color="#FE2C55" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Точка LIVE слева от треугольника -->
+    <path
+        android:pathData="M38,54m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0"
+        android:fillColor="#FE2C55" />
+</vector>

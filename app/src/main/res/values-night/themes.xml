@@ -1,0 +1,8 @@
+<resources>
+    <!-- Ночной режим идентичен основному: приложение всегда тёмное (бренд-стайл) -->
+    <style name="Theme.StreamLive" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/stream_black</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>
